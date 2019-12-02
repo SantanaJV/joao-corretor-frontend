@@ -6,6 +6,14 @@ export const Container = styled.div`
   padding: 16px;
 `;
 
+export const Title = styled.h3`
+  text-align: center;
+  color: #ececec;
+  font-weight: 400;
+  font-size: 2rem;
+  margin-bottom: 24px;
+`;
+
 export const Form = styled.form`
   display: flex;
   width: 100%;
@@ -26,29 +34,29 @@ export const InputContainer = styled.div`
   width: 50%;
 `;
 
-export const Input = styled.input`
-  border-radius: 4px;
-  border: none;
-  padding: 4px;
-  font-size: 12px;
-  width: 100%;
-  box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.25);
-  transition: 0.2s;
-
-  &:focus {
-    box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.75);
-  }
-`;
-
-export const Label = styled.label`
-  color: #ececec;
-  font-size: 1rem;
-  margin-bottom: 4px;
-`;
-
 export const InputGroup = styled.div`
   display: flex;
   width: 100%;
   flex-direction: column;
   margin-bottom: 16px;
+
+  label {
+    color: #ececec;
+    font-size: 0.9rem;
+    margin-bottom: 4px;
+  }
+
+  input {
+    border-radius: 4px;
+    border: none;
+    padding: 4px;
+    font-size: 12px;
+    width: 100%;
+    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.25);
+    transition: 0.2s;
+
+    &:focus {
+      box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.75);
+    }
+  }
 `;

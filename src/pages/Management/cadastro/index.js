@@ -1,10 +1,9 @@
 import React from "react";
 import {
   Container,
+  Title,
   Form,
-  Input,
   InputGroup,
-  Label,
   FileDropContainer,
   InputContainer
 } from "./styles";
@@ -12,58 +11,16 @@ import {
 export default function Cadastro() {
   return (
     <Container>
+      <Title>Ficha de Captação de Imóveis</Title>
       <Form>
         <FileDropContainer>
-          <Label>Imagens</Label>
+          <p>Imagens</p>
         </FileDropContainer>
         <InputContainer>
+          Dados Administrativos
           <InputGroup>
-            <Label for="formTitulo">Título</Label>
-            <Input type="text" id="formTitulo" />
-          </InputGroup>
-          <InputGroup>
-            <Label for="formDescricao">Descrição </Label>
-            <Input type="textarea" id="formDescricao" />
-          </InputGroup>
-          <InputGroup>
-            <Label for="formEndereco">Endereço </Label>
-            <Input type="text" id="formEndereco" />
-          </InputGroup>
-          <InputGroup>
-            <Label for="formTitulo">Título</Label>
-            <Input type="text" id="formTitulo" />
-          </InputGroup>
-          <InputGroup>
-            <Label for="formDescricao">Descrição </Label>
-            <Input type="textarea" id="formDescricao" />
-          </InputGroup>
-          <InputGroup>
-            <Label for="formEndereco">Endereço </Label>
-            <Input type="text" id="formEndereco" />
-          </InputGroup>
-          <InputGroup>
-            <Label for="formTitulo">Título</Label>
-            <Input type="text" id="formTitulo" />
-          </InputGroup>
-          <InputGroup>
-            <Label for="formDescricao">Descrição </Label>
-            <Input type="textarea" id="formDescricao" />
-          </InputGroup>
-          <InputGroup>
-            <Label for="formEndereco">Endereço </Label>
-            <Input type="text" id="formEndereco" />
-          </InputGroup>
-          <InputGroup>
-            <Label for="formTitulo">Título</Label>
-            <Input type="text" id="formTitulo" />
-          </InputGroup>
-          <InputGroup>
-            <Label for="formDescricao">Descrição </Label>
-            <Input type="textarea" id="formDescricao" />
-          </InputGroup>
-          <InputGroup>
-            <Label for="formEndereco">Endereço </Label>
-            <Input type="text" id="formEndereco" />
+            <label for="formRef">Referência do Corretor</label>
+            <input type="text" id="formRef" />
           </InputGroup>
         </InputContainer>
       </Form>
