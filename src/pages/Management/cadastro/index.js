@@ -14,7 +14,7 @@ export default function Cadastro() {
       <Title>Ficha de Captação de Imóveis</Title>
       <Form>
         <FileDropContainer>
-          <p>Imagens</p>
+          <p>Upload de Imagens</p>
         </FileDropContainer>
         <InputContainer>
           Dados Administrativos
