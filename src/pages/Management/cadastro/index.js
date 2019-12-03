@@ -19,14 +19,18 @@ export default function Cadastro() {
         </FileDropContainer>
         <InputContainer>
           <ContextGroup>
-            <h3>Dados Administrativos</h3>
-            <InputGroup>
-              <label for="formRef">Referência do corretor</label>
+            <p>Dados Administrativos</p>
+            <InputGroup type="text">
+              <label htmlFor="formRef">Referência do corretor</label>
               <input type="text" id="formRef" />
+            </InputGroup>
+            <InputGroup>
+              <input type="checkbox" id="formExclusividade" />
+              <label for="formExclusividade">Exclusividade</label>
             </InputGroup>
           </ContextGroup>
           <ContextGroup>
-            <h3>Proprietário</h3>
+            <p>Proprietário</p>
             <InputGroup>
               <label for="formRef">Nome completo</label>
               <input type="text" id="formRef" />
@@ -40,7 +44,11 @@ export default function Cadastro() {
               <input type="text" id="formRef" />
             </InputGroup>
             <InputGroup>
-              <label for="formRef">CEP</label>
+              <label for="formRef">Estado Civil</label>
+              <input type="text" id="formRef" />
+            </InputGroup>
+            <InputGroup>
+              <label for="formRef">Profissão</label>
               <input type="text" id="formRef" />
             </InputGroup>
             <InputGroup>
@@ -48,12 +56,24 @@ export default function Cadastro() {
               <input type="text" id="formRef" />
             </InputGroup>
             <InputGroup>
-              <label for="formRef">Telefone</label>
+              <label for="formRef">Telefone Residencial</label>
+              <input type="text" id="formRef" />
+            </InputGroup>
+            <InputGroup>
+              <label for="formRef">Telefone Comercial</label>
+              <input type="text" id="formRef" />
+            </InputGroup>
+            <InputGroup>
+              <label for="formRef">Telefone Celular</label>
+              <input type="text" id="formRef" />
+            </InputGroup>
+            <InputGroup>
+              <label for="formRef">CEP</label>
               <input type="text" id="formRef" />
             </InputGroup>
           </ContextGroup>
           <ContextGroup>
-            <h3>Imóvel</h3>
+            <p>Imóvel</p>
             <InputGroup>
               <label for="formRef">Referência do destinatário</label>
               <input type="text" id="formRef" />

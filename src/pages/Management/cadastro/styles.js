@@ -35,7 +35,7 @@ export const InputContainer = styled.div`
 `;
 
 export const ContextGroup = styled.div`
-  h3 {
+  p {
     color: #ececec;
     font-weight: 400;
     font-size: 1.2rem;
@@ -46,28 +46,36 @@ export const ContextGroup = styled.div`
 
 export const InputGroup = styled.div`
   display: flex;
+  overflow: hidden;
+  flex-wrap: wrap;
   width: 100%;
-  flex-direction: column;
   margin-left: 8px;
   margin-bottom: 8px;
 
   label {
     color: #ececec;
     font-size: 0.9rem;
-    margin-bottom: 4px;
   }
 
-  input {
+  input[type="text"] {
     border-radius: 4px;
     border: none;
     padding: 4px;
     font-size: 12px;
     width: 100%;
+    margin-top: 4px;
+
     box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.25);
     transition: 0.2s;
 
     &:focus {
       box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.75);
     }
+  }
+
+  input[type="checkbox"] {
+    align-self: center;
+    margin-right: 4px;
+    background: #ececec;
   }
 `;
