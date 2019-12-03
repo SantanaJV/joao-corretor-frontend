@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export const Container = styled.div`
   display: flex;
-  height: 500px;
+  height: 650px;
   justify-content: center;
   background: linear-gradient(#90ccf477, #f3d25077);
   padding: 24px;

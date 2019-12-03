@@ -22,23 +22,34 @@ export const Form = styled.form`
 `;
 
 export const FileDropContainer = styled.div`
-  padding: 16px;
+  padding: 0 16px;
   height: 100%;
   width: 50%;
   border-right: 1px solid #ececec;
 `;
 
 export const InputContainer = styled.div`
-  padding: 16px;
+  padding: 0 16px;
   height: 100%;
   width: 50%;
+`;
+
+export const ContextGroup = styled.div`
+  h3 {
+    color: #ececec;
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+  }
+  margin-bottom: 40px;
 `;
 
 export const InputGroup = styled.div`
   display: flex;
   width: 100%;
   flex-direction: column;
-  margin-bottom: 16px;
+  margin-left: 8px;
+  margin-bottom: 8px;
 
   label {
     color: #ececec;
