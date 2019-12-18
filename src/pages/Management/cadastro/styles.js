@@ -32,6 +32,13 @@ export const InputContainer = styled.div`
   padding: 0 16px;
   height: 100%;
   width: 50%;
+
+  button {
+    border: none;
+    border-radius: 4px;
+    background: #ececec;
+    padding: 8px;
+  }
 `;
 
 export const ContextGroup = styled.div`
@@ -46,7 +53,6 @@ export const ContextGroup = styled.div`
 
 export const InputGroup = styled.div`
   display: flex;
-  overflow: hidden;
   flex-wrap: wrap;
   width: 100%;
   margin-left: 8px;

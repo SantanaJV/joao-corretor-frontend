@@ -24,7 +24,7 @@ export default function Navbar() {
 
   return (
     <>
-      <Container onScrollTop={onScrollTop}>
+      <Container scrollTop={onScrollTop}>
         <NavLink to="/">INÍCIO</NavLink>
         <Logo href="/">
           <img src={logo} alt="Placeholder" />

@@ -14,8 +14,8 @@ export const Container = styled.div`
   position: fixed;
 
   box-shadow: ${props =>
-    props.onScrollTop ? "0 1px 6px 3px rgba(0, 0, 0, 0.15)" : "none"};
-  margin-top: ${props => (props.onScrollTop ? "0px" : "-116px")};
+    props.scrollTop ? "0 1px 6px 3px rgba(0, 0, 0, 0.15)" : "none"};
+  margin-top: ${props => (props.scrollTop ? "0px" : "-116px")};
 `;
 
 export const Logo = styled.a`
